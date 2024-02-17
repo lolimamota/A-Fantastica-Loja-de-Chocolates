@@ -8,7 +8,7 @@ export default function Card({photo, price, alt}){
     // const Payment(){}
     return(
         <section>
-        <img src={photo} alt={alt}/>
+        <img src={photo} alt={alt} width={'150px'}/>
         <h2>{item}</h2>
         <h2>{price}</h2>
         <button onClick={Add}>Adicionar itens</button>
