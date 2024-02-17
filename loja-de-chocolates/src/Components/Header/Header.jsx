@@ -3,11 +3,8 @@ import Logo from '../../assets/logo.png'
 
 export default function Header(){
     return(
-        <section>
-            <>
-            <img src={Logo} alt="" />
-            </>
-            <>
+        <section className='header'>
+            <img src={Logo} alt='logo com o nome da loja: "A fantastica loja de chocolates" '/>
             <nav>
                 <ul>
                     <li>
@@ -37,7 +34,6 @@ export default function Header(){
                     </li>
                 </ul>
             </nav>
-            </>
         </section>
     )
 }
