@@ -6,15 +6,17 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: "Montserrat Alternates", sans-serif;
   /* #DDC2C4, #37231E, #D9BFC1 */
 }
 
 .header{
-  border: solid red;
+  height: 15vh;
   display: flex;
+  font-weight: 300;
   align-items: center;
   justify-content: space-evenly;
-  background-color: linear-gradient(#DDC2C4, #37231E, #D9BFC1);
+  background-image: linear-gradient(to bottom, #DDC2C4, #D9BFC1, transparent);
 }
 
 .header a{
@@ -27,7 +29,6 @@
 
 ul{
   width: 60vw;
-  border: solid red;
   display: flex;
   align-items: center;
   justify-content: space-evenly;  
